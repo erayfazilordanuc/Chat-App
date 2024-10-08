@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(255) UNIQUE NOT NULL,
+  email VARCHAR(255) UNIQUE NOT NULL,
+  password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS messages (
+  id SERIAL PRIMARY KEY,
+  message VARCHAR(255) NOT NULL,
+  room VARCHAR(255) NOT NULL,
+  sender VARCHAR(255) NOT NULL,
+  created_at timestamp without time zone DEFAULT NOW()
+);

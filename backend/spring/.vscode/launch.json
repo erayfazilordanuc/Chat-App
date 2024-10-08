@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Chat-Application",
+      "request": "launch",
+      "mainClass": "chat.ChatApplication",
+      "projectName": "demo"
+    }
+  ]
+}

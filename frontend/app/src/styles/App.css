@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(225, 225, 225);
+  overflow: hidden;
+}
+
+.bottom-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 17px;
+  border-radius: 1px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
